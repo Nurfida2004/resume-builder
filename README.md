@@ -2,7 +2,7 @@
 
 A simple and responsive web-based resume builder that allows users to create a professional resume by entering their personal, educational, and professional information.
 
-## 🚀 Features
+##  Features
 
 * Add personal information
 * Add professional summary
@@ -20,7 +20,7 @@ A simple and responsive web-based resume builder that allows users to create a p
 * CSS3
 * JavaScript
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 resume-builder/
@@ -30,7 +30,7 @@ resume-builder/
 └── README.md
 ```
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone the repository:
 
@@ -50,7 +50,7 @@ git clone https://github.com/YOUR-USERNAME/resume-builder.git
 
 Add screenshots of your application here.
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Add multiple resume templates
 * Add user login and registration
@@ -58,8 +58,8 @@ Add screenshots of your application here.
 * Add more customization options
 * Add AI-powered resume suggestions
 
-## 👨‍💻 Author
+## Author
 
-**Your Name**
+**MD Nurfida Islam**
 
-GitHub: `https://github.com/YOUR-USERNAME`
+
