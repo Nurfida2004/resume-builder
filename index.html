@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Form -->
+    <div class="form-section">
+      <h1>Resume Builder</h1>
+
+      <input id="name" type="text" placeholder="Full Name">
+      <input id="email" type="email" placeholder="Email">
+      <input id="phone" type="text" placeholder="Phone">
+      <input id="location" type="text" placeholder="Location">
+
+      <textarea id="summary" placeholder="Professional Summary"></textarea>
+
+      <textarea id="education" placeholder="Education"></textarea>
+
+      <textarea id="experience" placeholder="Work Experience"></textarea>
+
+      <textarea id="skills" placeholder="Skills (e.g. HTML, CSS, JavaScript)"></textarea>
+
+      <textarea id="projects" placeholder="Projects"></textarea>
+
+      <button onclick="updateResume()">Preview Resume</button>
+      <button onclick="window.print()">Download / Print PDF</button>
+    </div>
+
+
+    <!-- Resume Preview -->
+    <div class="resume" id="resume">
+
+      <h1 id="previewName">Your Name</h1>
+
+      <p id="previewContact">
+        Email | Phone | Location
+      </p>
+
+      <hr>
+
+      <h2>Profile</h2>
+      <p id="previewSummary">Your professional summary will appear here.</p>
+
+      <h2>Education</h2>
+      <p id="previewEducation">Your education will appear here.</p>
+
+      <h2>Experience</h2>
+      <p id="previewExperience">Your experience will appear here.</p>
+
+      <h2>Skills</h2>
+      <p id="previewSkills">Your skills will appear here.</p>
+
+      <h2>Projects</h2>
+      <p id="previewProjects">Your projects will appear here.</p>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
